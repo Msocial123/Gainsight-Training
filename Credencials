@@ -1,0 +1,4 @@
+Bangalore - ssh -i "gainsight.pem" ec2-user@ec2-3-7-253-191.ap-south-1.compute.amazonaws.com
+Bangalore - ssh -i "gainsight.pem" ec2-user@ec2-3-110-136-91.ap-south-1.compute.amazonaws.com
+Hyd : ssh -i "gainsight.pem" ec2-user@ec2-13-235-48-204.ap-south-1.compute.amazonaws.com
+Hyd : ssh -i "gainsight.pem" ec2-user@ec2-3-111-55-28.ap-south-1.compute.amazonaws.com
