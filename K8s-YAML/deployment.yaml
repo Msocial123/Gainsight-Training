@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: new-application
+  labels:
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  replicas: 3
+  template:
+    metadata:
+      name: new-deploy
+      labels:
+        app: nginx
+    spec:        
+      containers:
+      - image: muralisocial123/epython:1.0
+        name: prod-app

@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Pod 
+metadata:
+  name: sample-pod
+  namespace: dev-namespace
+spec:
+  containers:
+    - name: demo-app
+      image: muralisocial123/excelr-python:1.0
